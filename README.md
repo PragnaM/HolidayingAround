@@ -1,4 +1,6 @@
-# HW-5 Backend
+# Holidaying-Around
+
+Features
 
 1. Save and load files to the server file system
 
@@ -12,3 +14,7 @@
 3. Serve files to the client
 
    When the user uploads an image, this static file is then fetched from the server file system and displayed.
+   
+Running the website
+1. npm i
+2. npm run dev
