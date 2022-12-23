@@ -1,0 +1,27 @@
+$bgcolor: #e9fcfe;
+$textcolor: #045dc8;
+$fontsize: 18px;
+html,
+body {
+  padding-top: 20 px;
+  font-family: "Amatic SC";
+  background: $bgcolor;
+  height: 100%;
+}
+
+.headercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  color: $textcolor;
+  font-size: 25px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}

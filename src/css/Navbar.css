@@ -1,0 +1,37 @@
+.sidenav a {
+  display: block;
+  width: 150px;
+  padding: 20px;
+  color: #045dc8;
+  font-size: large;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.sidenav {
+  width: 20%;
+  height: 1600px;
+  padding: 8px 0;
+  background: #88dbe7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  opacity: 50;
+}
+
+.socialmedia li a {
+  color: #045dc8;
+  font-size: large;
+  text-decoration: none;
+  font-size: 25px;
+}/*# sourceMappingURL=Navbar.css.map */

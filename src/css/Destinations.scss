@@ -1,0 +1,73 @@
+@use "MainSection-style";
+$font-size: 25px;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.content {
+  background-color: #67c6d3;
+  width: 1130px;
+  text-align: center;
+  color: MainSection-style.$textcolor;
+  font-size: 25px;
+  @if $font-size == 25px {
+    font-style: italic;
+    font-weight: 900;
+  }
+}
+
+.content img {
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  padding: 0.5%;
+  font-size: $font-size;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.citiescontent,
+.npcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.citiescontent,
+.npcontent {
+  img {
+    animation-name: paddingChange;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+  }
+}
+
+@keyframes paddingChange {
+  from {
+    padding: 0.5%;
+  }
+  to {
+    padding: 2%;
+  }
+}
+
+table {
+  margin-left: 400px;
+}
+
+table,
+th,
+td,
+tr {
+  align-items: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}

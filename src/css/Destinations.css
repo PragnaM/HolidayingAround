@@ -1,0 +1,161 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.mainitem {
+  flex-grow: 4;
+  background-image: url(../images/DiabloLake.jpg);
+  background-size: cover;
+}
+
+.mainitem img {
+  border-radius: 1%;
+}
+
+.welcomemsg {
+  color: #e9fcfe;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.mainimgs {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.mainimg {
+  -webkit-animation-name: opacitychange;
+          animation-name: opacitychange;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 320px;
+  background-color: white;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 1%;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.mainimg:hover {
+  transform: scale(1.2);
+}
+
+@-webkit-keyframes opacitychange {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes opacitychange {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.feedback-form {
+  margin-left: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 820px;
+  background-color: white;
+  margin-bottom: 25px;
+  text-align: center;
+  padding: 1%;
+  opacity: 90%;
+}
+
+.feedback-form label,
+input {
+  color: black;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
+
+.feedback-form-input {
+  color: black;
+  font-family: "Amatic SC";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.content {
+  background-color: #67c6d3;
+  width: 1130px;
+  text-align: center;
+  color: #045dc8;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.content img {
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  padding: 0.5%;
+  font-size: 25px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.citiescontent,
+.npcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.citiescontent img,
+.npcontent img {
+  -webkit-animation-name: paddingChange;
+          animation-name: paddingChange;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+@-webkit-keyframes paddingChange {
+  from {
+    padding: 0.5%;
+  }
+  to {
+    padding: 2%;
+  }
+}
+
+@keyframes paddingChange {
+  from {
+    padding: 0.5%;
+  }
+  to {
+    padding: 2%;
+  }
+}/*# sourceMappingURL=Destinations.css.map */
